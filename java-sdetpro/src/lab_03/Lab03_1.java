@@ -8,7 +8,7 @@ public class Lab03_1 {
         for (int index = 0; index < myArray.length; index++) {
             if (myArray[index] % 2 == 0) {
                 evenNumbers++;
-            }else {
+            } else {
                 oddNumbers++;
             }
         }
