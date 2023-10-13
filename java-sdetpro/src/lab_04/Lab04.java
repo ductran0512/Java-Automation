@@ -74,7 +74,7 @@ public class Lab04 {
         int number = scanner.nextInt();
         if (myArrayList.contains(number)) {
             System.out.println("Your number is: " + number);
-            System.out.println("Index number is: "+ myArrayList.indexOf(number));
+            System.out.println("Index number is: " + myArrayList.indexOf(number));
         } else {
             System.out.println("The number you just entered is not in the ArrayList");
         }
